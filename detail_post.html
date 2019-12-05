@@ -27,7 +27,6 @@
     </div>
   </div>
   <div data-collapse="medium" data-animation="default" data-duration="400" class="scrolling-nav w-nav" data-ix="display-none"><a href="https://xing-chuan-zhu-wen-zhu-zhai.webflow.io/#home" class="brand-div w-nav-brand"><img src="images/サイエンスホームlogo_1.png" width="60" srcset="images/サイエンスホームlogo_1-p-500.png 500w, images/サイエンスホームlogo_1.png 718w" sizes="100vw" alt="" class="image-3"></a>
-    <nav role="navigation" class="nav-right-2 w-nav-menu"><a href="detail-post.html" class="nav-link w-nav-link w--current" data-ix="fade-on-load-1">How it Works</a><a href="#" class="nav-link w-nav-link" data-ix="fade-on-load-1">FAQ</a><a href="sell.html" class="nav-link w-nav-link" data-ix="fade-on-load-1">Sell your products</a><a href="#" class="cta-2 smaller colour5 round w-button" data-ix="fade-on-load-1">お問い合わせはこちら</a></nav>
     <div class="menu-button w-nav-button">
       <div class="w-icon-nav-menu"></div>
     </div>
@@ -58,7 +57,7 @@
   </div>
   <div class="footer">
     <div class="web-links-2 footer-logo"><a href="https://www.sciencehome.jp/" target="_blank" class="cta-3 colour5 bigger new w-button" data-ix="fade-on-scroll-2"></a></div>
-    <div class="web-links-2 right"><a href="http://shyamagata.com/" class="footer-link left">ホームへ戻る</a><a href="#" class="footer-link left">星川建設</a></div>
+    <div class="web-links-2 right"><a href="http://shyamagata.com/" class="footer-link left">ホームへ戻る</a><a href=http://hoshikawacon.com/ class="footer-link left">星川建設</a></div>
     <div class="lower-footer-links wide">
       <div class="footer-text---lighter-2">© 2019 by hoshikawa Construction co.ltd.All Right Reserved<a href="https://www.facebook.com/" target="_blank"><strong><br></strong></a></div>
       <!-- <div class="lower-footer-links right-links"><a href="privacy.html" class="footer---updated-link second-set">プライバシーポリシー</a></div> -->
@@ -90,7 +89,7 @@
     var url = window.location.href;
     var queryParamIndex = url.lastIndexOf('?');
     var queryParams = new URLSearchParams(url.slice(queryParamIndex));
-    
+
     $.ajax({
       url: 'http://160.16.80.140/content/' + queryParams.get('id'), success: function (data) {
         var result = JSON.parse(data);
