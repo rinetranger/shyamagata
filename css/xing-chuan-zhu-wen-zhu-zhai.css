@@ -1477,7 +1477,7 @@
   border: 1px solid #000;
   border-radius: 5px;
   background-color: #000;
-  background-image: url('../images/サイエンスホームlogo_1.png');
+  background-image: url('../images/new_logo.jpg');
   background-size: cover;
   color: #fff;
   font-size: 13px;
@@ -1487,7 +1487,7 @@
 .cta-3.colour5.bigger:hover {
   border: 1px solid #000;
   background-color: #fff;
-  background-image: url('../images/サイエンスホームlogo_1.png');
+  background-image: url('../images/new_logo.jpg');
   background-size: cover;
   opacity: 1;
   color: #000;
@@ -1495,14 +1495,13 @@
 
 .cta-3.colour5.bigger {
   min-height: 57px;
-  min-width: 227px;
+  min-width: 260px;
   margin-top: 8px;
   margin-left: 35px;
   padding: 15px 35px;
-  border: 1px none #000;
   border-radius: 5px;
   background-color: #000;
-  background-image: url('../images/サイエンスホームlogo_1.png');
+  background-image: url('../images/new_logo.jpg');
   background-size: cover;
   color: #fff;
   font-size: 13px;
@@ -1512,23 +1511,23 @@
 .cta-3.colour5.bigger:hover {
   border: 1px none #000;
   background-color: #fff;
-  background-image: url('../images/サイエンスホームlogo_1.png');
+  background-image: url('../images/new_logo.jpg');
   background-size: cover;
   opacity: 1;
   color: #000;
 }
 
 .cta-3.colour5.bigger.new {
-  min-width: 188px;
+  /* min-width: 261px; */
   padding-left: 35px;
   border-style: none;
-  background-image: url('../images/サイエンスホームlogo.png');
+  background-image: url('../images/new_logo.jpg');
 }
 
 .cta-3.colour5.bigger.new.blackline {
   margin-right: 40px;
-  border-style: solid;
-  border-radius: 0px;
+  border-style: none;
+  /* border-radius: 0px; */
 }
 
 .rich-text-block {
