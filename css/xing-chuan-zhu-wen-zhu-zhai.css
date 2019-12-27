@@ -1444,7 +1444,7 @@
 
 .image-3 {
   width: 220px;
-  height: 55px;
+  height: 50px;
 }
 
 .cta-3 {
@@ -2766,6 +2766,9 @@ html.w-mod-js *[data-ix="display-none"] {
 }
 
 @media (max-width: 479px) {
+  .image-3 {
+    display: none;
+  }
   .section-title {
     font-size: 28px;
     line-height: 38px;
